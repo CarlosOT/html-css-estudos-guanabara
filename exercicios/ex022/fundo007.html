@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhameto Vertical</title>
+    <style>
+        #container{
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+            position: relative;
+            height: 90vh;
+            background-color: purple;
+            padding: 10px;
+
+        }
+        #conteudo{
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+            position: absolute;
+            right: 0;
+            top: 0;
+            /* left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%); */
+            height: 200px;
+            background-color: yellow;
+            width: 400px;
+            
+        }
+        p{
+            text-align: center;
+            line-height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <p>container</p>
+        <article id="conteudo">
+            <p>conteudo</p>
+        </article>
+    </section>
+</body>
+</html>
